@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43EEA45719335F2000973B1F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EEA45619335F2000973B1F /* CoreFoundation.framework */; };
+		43EEA45D19335F2000973B1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 43EEA45B19335F2000973B1F /* InfoPlist.strings */; };
+		43EEA4E01933630600973B1F /* config.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 43EEA4B51933630500973B1F /* config.h.in */; };
+		43EEA4E11933630600973B1F /* fastmix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4B61933630500973B1F /* fastmix.cpp */; };
+		43EEA4E21933630600973B1F /* load_669.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4BB1933630500973B1F /* load_669.cpp */; };
+		43EEA4E31933630600973B1F /* load_abc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4BC1933630500973B1F /* load_abc.cpp */; };
+		43EEA4E41933630600973B1F /* load_amf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4BD1933630500973B1F /* load_amf.cpp */; };
+		43EEA4E51933630600973B1F /* load_ams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4BE1933630500973B1F /* load_ams.cpp */; };
+		43EEA4E61933630600973B1F /* load_dbm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4BF1933630500973B1F /* load_dbm.cpp */; };
+		43EEA4E71933630600973B1F /* load_dmf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4C01933630500973B1F /* load_dmf.cpp */; };
+		43EEA4E81933630600973B1F /* load_dsm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4C11933630500973B1F /* load_dsm.cpp */; };
+		43EEA4E91933630600973B1F /* load_far.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4C21933630500973B1F /* load_far.cpp */; };
+		43EEA4EA1933630600973B1F /* load_it.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4C31933630500973B1F /* load_it.cpp */; };
+		43EEA4EB1933630600973B1F /* load_j2b.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4C41933630500973B1F /* load_j2b.cpp */; };
+		43EEA4EC1933630600973B1F /* load_mdl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4C51933630500973B1F /* load_mdl.cpp */; };
+		43EEA4ED1933630600973B1F /* load_med.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4C61933630500973B1F /* load_med.cpp */; };
+		43EEA4EE1933630600973B1F /* load_mid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4C71933630600973B1F /* load_mid.cpp */; };
+		43EEA4EF1933630600973B1F /* load_mod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4C81933630600973B1F /* load_mod.cpp */; };
+		43EEA4F01933630600973B1F /* load_mt2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4C91933630600973B1F /* load_mt2.cpp */; };
+		43EEA4F11933630600973B1F /* load_mtm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4CA1933630600973B1F /* load_mtm.cpp */; };
+		43EEA4F21933630600973B1F /* load_okt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4CB1933630600973B1F /* load_okt.cpp */; };
+		43EEA4F31933630600973B1F /* load_pat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4CC1933630600973B1F /* load_pat.cpp */; };
+		43EEA4F41933630600973B1F /* load_psm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4CE1933630600973B1F /* load_psm.cpp */; };
+		43EEA4F51933630600973B1F /* load_ptm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4CF1933630600973B1F /* load_ptm.cpp */; };
+		43EEA4F61933630600973B1F /* load_s3m.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4D01933630600973B1F /* load_s3m.cpp */; };
+		43EEA4F71933630600973B1F /* load_stm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4D11933630600973B1F /* load_stm.cpp */; };
+		43EEA4F81933630600973B1F /* load_ult.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4D21933630600973B1F /* load_ult.cpp */; };
+		43EEA4F91933630600973B1F /* load_umx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4D31933630600973B1F /* load_umx.cpp */; };
+		43EEA4FA1933630600973B1F /* load_wav.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4D41933630600973B1F /* load_wav.cpp */; };
+		43EEA4FB1933630600973B1F /* load_xm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4D51933630600973B1F /* load_xm.cpp */; };
+		43EEA4FC1933630600973B1F /* Makefile.am in Resources */ = {isa = PBXBuildFile; fileRef = 43EEA4D61933630600973B1F /* Makefile.am */; };
+		43EEA4FD1933630600973B1F /* mmcmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4D71933630600973B1F /* mmcmp.cpp */; };
+		43EEA4FE1933630600973B1F /* modplug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4D81933630600973B1F /* modplug.cpp */; };
+		43EEA4FF1933630600973B1F /* snd_dsp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4DA1933630600973B1F /* snd_dsp.cpp */; };
+		43EEA5001933630600973B1F /* snd_flt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4DB1933630600973B1F /* snd_flt.cpp */; };
+		43EEA5011933630600973B1F /* snd_fx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4DC1933630600973B1F /* snd_fx.cpp */; };
+		43EEA5021933630600973B1F /* sndfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4DD1933630600973B1F /* sndfile.cpp */; };
+		43EEA5031933630600973B1F /* sndmix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43EEA4DE1933630600973B1F /* sndmix.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43EEA45319335F2000973B1F /* libmodplug.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = libmodplug.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		43EEA45619335F2000973B1F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		43EEA45A19335F2000973B1F /* libmodplug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "libmodplug-Info.plist"; sourceTree = "<group>"; };
+		43EEA45C19335F2000973B1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		43EEA45E19335F2000973B1F /* libmodplug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libmodplug-Prefix.pch"; sourceTree = "<group>"; };
+		43EEA4B51933630500973B1F /* config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		43EEA4B61933630500973B1F /* fastmix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fastmix.cpp; sourceTree = "<group>"; };
+		43EEA4B81933630500973B1F /* it_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = it_defs.h; sourceTree = "<group>"; };
+		43EEA4B91933630500973B1F /* sndfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sndfile.h; sourceTree = "<group>"; };
+		43EEA4BA1933630500973B1F /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		43EEA4BB1933630500973B1F /* load_669.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_669.cpp; sourceTree = "<group>"; };
+		43EEA4BC1933630500973B1F /* load_abc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_abc.cpp; sourceTree = "<group>"; };
+		43EEA4BD1933630500973B1F /* load_amf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_amf.cpp; sourceTree = "<group>"; };
+		43EEA4BE1933630500973B1F /* load_ams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_ams.cpp; sourceTree = "<group>"; };
+		43EEA4BF1933630500973B1F /* load_dbm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_dbm.cpp; sourceTree = "<group>"; };
+		43EEA4C01933630500973B1F /* load_dmf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_dmf.cpp; sourceTree = "<group>"; };
+		43EEA4C11933630500973B1F /* load_dsm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_dsm.cpp; sourceTree = "<group>"; };
+		43EEA4C21933630500973B1F /* load_far.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_far.cpp; sourceTree = "<group>"; };
+		43EEA4C31933630500973B1F /* load_it.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_it.cpp; sourceTree = "<group>"; };
+		43EEA4C41933630500973B1F /* load_j2b.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_j2b.cpp; sourceTree = "<group>"; };
+		43EEA4C51933630500973B1F /* load_mdl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_mdl.cpp; sourceTree = "<group>"; };
+		43EEA4C61933630500973B1F /* load_med.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_med.cpp; sourceTree = "<group>"; };
+		43EEA4C71933630600973B1F /* load_mid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_mid.cpp; sourceTree = "<group>"; };
+		43EEA4C81933630600973B1F /* load_mod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_mod.cpp; sourceTree = "<group>"; };
+		43EEA4C91933630600973B1F /* load_mt2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_mt2.cpp; sourceTree = "<group>"; };
+		43EEA4CA1933630600973B1F /* load_mtm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_mtm.cpp; sourceTree = "<group>"; };
+		43EEA4CB1933630600973B1F /* load_okt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_okt.cpp; sourceTree = "<group>"; };
+		43EEA4CC1933630600973B1F /* load_pat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_pat.cpp; sourceTree = "<group>"; };
+		43EEA4CD1933630600973B1F /* load_pat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = load_pat.h; sourceTree = "<group>"; };
+		43EEA4CE1933630600973B1F /* load_psm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_psm.cpp; sourceTree = "<group>"; };
+		43EEA4CF1933630600973B1F /* load_ptm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_ptm.cpp; sourceTree = "<group>"; };
+		43EEA4D01933630600973B1F /* load_s3m.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_s3m.cpp; sourceTree = "<group>"; };
+		43EEA4D11933630600973B1F /* load_stm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_stm.cpp; sourceTree = "<group>"; };
+		43EEA4D21933630600973B1F /* load_ult.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_ult.cpp; sourceTree = "<group>"; };
+		43EEA4D31933630600973B1F /* load_umx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_umx.cpp; sourceTree = "<group>"; };
+		43EEA4D41933630600973B1F /* load_wav.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_wav.cpp; sourceTree = "<group>"; };
+		43EEA4D51933630600973B1F /* load_xm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = load_xm.cpp; sourceTree = "<group>"; };
+		43EEA4D61933630600973B1F /* Makefile.am */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		43EEA4D71933630600973B1F /* mmcmp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mmcmp.cpp; sourceTree = "<group>"; };
+		43EEA4D81933630600973B1F /* modplug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = modplug.cpp; sourceTree = "<group>"; };
+		43EEA4D91933630600973B1F /* modplug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modplug.h; sourceTree = "<group>"; };
+		43EEA4DA1933630600973B1F /* snd_dsp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = snd_dsp.cpp; sourceTree = "<group>"; };
+		43EEA4DB1933630600973B1F /* snd_flt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = snd_flt.cpp; sourceTree = "<group>"; };
+		43EEA4DC1933630600973B1F /* snd_fx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = snd_fx.cpp; sourceTree = "<group>"; };
+		43EEA4DD1933630600973B1F /* sndfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sndfile.cpp; sourceTree = "<group>"; };
+		43EEA4DE1933630600973B1F /* sndmix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sndmix.cpp; sourceTree = "<group>"; };
+		43EEA4DF1933630600973B1F /* tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tables.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43EEA45019335F2000973B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EEA45719335F2000973B1F /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43EEA44A19335F1F00973B1F = {
+			isa = PBXGroup;
+			children = (
+				43EEA45819335F2000973B1F /* libmodplug */,
+				43EEA45519335F2000973B1F /* Frameworks */,
+				43EEA45419335F2000973B1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43EEA45419335F2000973B1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43EEA45319335F2000973B1F /* libmodplug.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43EEA45519335F2000973B1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43EEA45619335F2000973B1F /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43EEA45819335F2000973B1F /* libmodplug */ = {
+			isa = PBXGroup;
+			children = (
+				43EEA4B41933630500973B1F /* src */,
+				43EEA45919335F2000973B1F /* Supporting Files */,
+			);
+			path = libmodplug;
+			sourceTree = "<group>";
+		};
+		43EEA45919335F2000973B1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				43EEA45A19335F2000973B1F /* libmodplug-Info.plist */,
+				43EEA45B19335F2000973B1F /* InfoPlist.strings */,
+				43EEA45E19335F2000973B1F /* libmodplug-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		43EEA4B41933630500973B1F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				43EEA4B51933630500973B1F /* config.h.in */,
+				43EEA4B61933630500973B1F /* fastmix.cpp */,
+				43EEA4B71933630500973B1F /* libmodplug */,
+				43EEA4BB1933630500973B1F /* load_669.cpp */,
+				43EEA4BC1933630500973B1F /* load_abc.cpp */,
+				43EEA4BD1933630500973B1F /* load_amf.cpp */,
+				43EEA4BE1933630500973B1F /* load_ams.cpp */,
+				43EEA4BF1933630500973B1F /* load_dbm.cpp */,
+				43EEA4C01933630500973B1F /* load_dmf.cpp */,
+				43EEA4C11933630500973B1F /* load_dsm.cpp */,
+				43EEA4C21933630500973B1F /* load_far.cpp */,
+				43EEA4C31933630500973B1F /* load_it.cpp */,
+				43EEA4C41933630500973B1F /* load_j2b.cpp */,
+				43EEA4C51933630500973B1F /* load_mdl.cpp */,
+				43EEA4C61933630500973B1F /* load_med.cpp */,
+				43EEA4C71933630600973B1F /* load_mid.cpp */,
+				43EEA4C81933630600973B1F /* load_mod.cpp */,
+				43EEA4C91933630600973B1F /* load_mt2.cpp */,
+				43EEA4CA1933630600973B1F /* load_mtm.cpp */,
+				43EEA4CB1933630600973B1F /* load_okt.cpp */,
+				43EEA4CC1933630600973B1F /* load_pat.cpp */,
+				43EEA4CD1933630600973B1F /* load_pat.h */,
+				43EEA4CE1933630600973B1F /* load_psm.cpp */,
+				43EEA4CF1933630600973B1F /* load_ptm.cpp */,
+				43EEA4D01933630600973B1F /* load_s3m.cpp */,
+				43EEA4D11933630600973B1F /* load_stm.cpp */,
+				43EEA4D21933630600973B1F /* load_ult.cpp */,
+				43EEA4D31933630600973B1F /* load_umx.cpp */,
+				43EEA4D41933630600973B1F /* load_wav.cpp */,
+				43EEA4D51933630600973B1F /* load_xm.cpp */,
+				43EEA4D61933630600973B1F /* Makefile.am */,
+				43EEA4D71933630600973B1F /* mmcmp.cpp */,
+				43EEA4D81933630600973B1F /* modplug.cpp */,
+				43EEA4D91933630600973B1F /* modplug.h */,
+				43EEA4DA1933630600973B1F /* snd_dsp.cpp */,
+				43EEA4DB1933630600973B1F /* snd_flt.cpp */,
+				43EEA4DC1933630600973B1F /* snd_fx.cpp */,
+				43EEA4DD1933630600973B1F /* sndfile.cpp */,
+				43EEA4DE1933630600973B1F /* sndmix.cpp */,
+				43EEA4DF1933630600973B1F /* tables.h */,
+			);
+			name = src;
+			path = deps/libmodplug/src;
+			sourceTree = SOURCE_ROOT;
+		};
+		43EEA4B71933630500973B1F /* libmodplug */ = {
+			isa = PBXGroup;
+			children = (
+				43EEA4B81933630500973B1F /* it_defs.h */,
+				43EEA4B91933630500973B1F /* sndfile.h */,
+				43EEA4BA1933630500973B1F /* stdafx.h */,
+			);
+			path = libmodplug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43EEA45219335F2000973B1F /* libmodplug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43EEA46119335F2000973B1F /* Build configuration list for PBXNativeTarget "libmodplug" */;
+			buildPhases = (
+				43EEA44F19335F2000973B1F /* Sources */,
+				43EEA45019335F2000973B1F /* Frameworks */,
+				43EEA45119335F2000973B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libmodplug;
+			productName = libmodplug;
+			productReference = 43EEA45319335F2000973B1F /* libmodplug.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43EEA44B19335F2000973B1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Turborilla;
+			};
+			buildConfigurationList = 43EEA44E19335F2000973B1F /* Build configuration list for PBXProject "libmodplug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43EEA44A19335F1F00973B1F;
+			productRefGroup = 43EEA45419335F2000973B1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43EEA45219335F2000973B1F /* libmodplug */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43EEA45119335F2000973B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EEA4FC1933630600973B1F /* Makefile.am in Resources */,
+				43EEA4E01933630600973B1F /* config.h.in in Resources */,
+				43EEA45D19335F2000973B1F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43EEA44F19335F2000973B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43EEA4FA1933630600973B1F /* load_wav.cpp in Sources */,
+				43EEA4E81933630600973B1F /* load_dsm.cpp in Sources */,
+				43EEA4F61933630600973B1F /* load_s3m.cpp in Sources */,
+				43EEA4E41933630600973B1F /* load_amf.cpp in Sources */,
+				43EEA4F21933630600973B1F /* load_okt.cpp in Sources */,
+				43EEA4FE1933630600973B1F /* modplug.cpp in Sources */,
+				43EEA4EF1933630600973B1F /* load_mod.cpp in Sources */,
+				43EEA4EE1933630600973B1F /* load_mid.cpp in Sources */,
+				43EEA4E91933630600973B1F /* load_far.cpp in Sources */,
+				43EEA4E11933630600973B1F /* fastmix.cpp in Sources */,
+				43EEA4F71933630600973B1F /* load_stm.cpp in Sources */,
+				43EEA4FF1933630600973B1F /* snd_dsp.cpp in Sources */,
+				43EEA5031933630600973B1F /* sndmix.cpp in Sources */,
+				43EEA4EB1933630600973B1F /* load_j2b.cpp in Sources */,
+				43EEA4F11933630600973B1F /* load_mtm.cpp in Sources */,
+				43EEA4FD1933630600973B1F /* mmcmp.cpp in Sources */,
+				43EEA4EC1933630600973B1F /* load_mdl.cpp in Sources */,
+				43EEA4F91933630600973B1F /* load_umx.cpp in Sources */,
+				43EEA4E71933630600973B1F /* load_dmf.cpp in Sources */,
+				43EEA4F31933630600973B1F /* load_pat.cpp in Sources */,
+				43EEA4F41933630600973B1F /* load_psm.cpp in Sources */,
+				43EEA4E51933630600973B1F /* load_ams.cpp in Sources */,
+				43EEA4EA1933630600973B1F /* load_it.cpp in Sources */,
+				43EEA5001933630600973B1F /* snd_flt.cpp in Sources */,
+				43EEA4F81933630600973B1F /* load_ult.cpp in Sources */,
+				43EEA4E21933630600973B1F /* load_669.cpp in Sources */,
+				43EEA4ED1933630600973B1F /* load_med.cpp in Sources */,
+				43EEA4E31933630600973B1F /* load_abc.cpp in Sources */,
+				43EEA4E61933630600973B1F /* load_dbm.cpp in Sources */,
+				43EEA4FB1933630600973B1F /* load_xm.cpp in Sources */,
+				43EEA5011933630600973B1F /* snd_fx.cpp in Sources */,
+				43EEA4F01933630600973B1F /* load_mt2.cpp in Sources */,
+				43EEA5021933630600973B1F /* sndfile.cpp in Sources */,
+				43EEA4F51933630600973B1F /* load_ptm.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43EEA45B19335F2000973B1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43EEA45C19335F2000973B1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43EEA45F19335F2000973B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		43EEA46019335F2000973B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		43EEA46219335F2000973B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libmodplug/libmodplug-Prefix.pch";
+				INFOPLIST_FILE = "libmodplug/libmodplug-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		43EEA46319335F2000973B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libmodplug/libmodplug-Prefix.pch";
+				INFOPLIST_FILE = "libmodplug/libmodplug-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43EEA44E19335F2000973B1F /* Build configuration list for PBXProject "libmodplug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43EEA45F19335F2000973B1F /* Debug */,
+				43EEA46019335F2000973B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43EEA46119335F2000973B1F /* Build configuration list for PBXNativeTarget "libmodplug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43EEA46219335F2000973B1F /* Debug */,
+				43EEA46319335F2000973B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43EEA44B19335F2000973B1F /* Project object */;
+}

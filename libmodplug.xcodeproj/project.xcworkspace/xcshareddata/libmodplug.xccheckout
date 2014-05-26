@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7E634F3D-4B4B-41BA-A379-BA1443D90FA3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>libmodplug</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>93AA82FF-9363-4BEA-8B25-9956D151662B</key>
+		<string>ssh://github.com/hyarion/libmodplug.git</string>
+		<key>F7B0DE43-268F-4348-90B9-BC7696C1FC58</key>
+		<string>ssh://github.com/hyarion/libmodplug.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>libmodplug.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>93AA82FF-9363-4BEA-8B25-9956D151662B</key>
+		<string>../..</string>
+		<key>F7B0DE43-268F-4348-90B9-BC7696C1FC58</key>
+		<string>../../deps/libmodplug</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/hyarion/libmodplug.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>93AA82FF-9363-4BEA-8B25-9956D151662B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>93AA82FF-9363-4BEA-8B25-9956D151662B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>libmodplug</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F7B0DE43-268F-4348-90B9-BC7696C1FC58</string>
+			<key>IDESourceControlWCCName</key>
+			<string>libmodplug</string>
+		</dict>
+	</array>
+</dict>
+</plist>
