@@ -1,0 +1,3 @@
+[submodule "deps/libmodplug"]
+	path = deps/libmodplug
+	url = git@github.com:hyarion/libmodplug.git
